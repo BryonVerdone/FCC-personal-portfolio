@@ -2,3 +2,39 @@
   margin: 0;
   box-sizing: border-box;
 }
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+
+/* 
+==========
+Navbar
+==========
+*/
+
+.navbar {
+  position: fixed;
+  display: flex;
+  width: 100vw;
+  justify-content: flex-end;
+  background: grey;
+  padding: 2rem;
+}
+
+.nav-list {
+  display: flex;
+}
+.nav-item {
+  font-size: 1.5rem;
+  color: black;
+  margin: 1rem;
+}
+
+/* 
+==========
+Welcome Section
+==========
+*/
