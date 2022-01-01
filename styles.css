@@ -61,3 +61,30 @@ Welcome Section
 Project Section
 ==========
 */
+#projects {
+  text-align: center;
+  height: 100%;
+  width: 100%;
+  background: #bfdbf7;
+  padding: 5rem;
+}
+#projects h1 {
+  font-size: 2rem;
+}
+.project-grid {
+  max-width: 100vw;
+  margin-top: 1rem;
+  display: grid;
+  place-items: center;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 2rem;
+}
+img {
+  object-fit: cover;
+}
+.project-tile p {
+  height: 100%;
+  padding: 1rem;
+  color: #bfdbf7;
+  background: #022b3a;
+}
